@@ -461,38 +461,6 @@ paleo-spatial detail.
         ├── levant_spd_notebook.ipynb
         └── levant_notebook.ipynb
 
-    .
-    |-- README.md                    this file
-    |-- latest_levant_model.py       grid ABM (main model)
-    |-- model_ode.py                 single-population ODE (baseline)
-    |-- null_v2.py                   climate-only null with farmer onset
-    |-- run_model_grid.py            grid comparison, 9-panel figure
-    |-- run_model.py                 ODE comparison
-    |-- run_grid_ensemble.py         grid ensemble with climate noise
-    |-- run_ensemble.py              ODE ensemble
-    |-- run_levant_null.py           null comparison, 2x4 figure
-    |-- run_no_gate.py               gate-removal test
-    |-- run_sensitivity.py           sensitivity sweep
-    |-- prepare_soreq2012.py         climate download and processing
-    |-- notebook.py                  the walkthrough notebook
-    |-- soreq_2003-noaa.txt          cached NOAA raw data (2003)
-    |-- soreq_2012-noaa.txt          cached NOAA raw data (2012)
-    |-- levant_climate.csv           2003 climate multiplier C(t)
-    |-- levant_climate2.csv          2012 climate multiplier C(t)
-    |-- levant_forager_spd.npz       empirical forager SPD
-    |-- levant_farmer_spd.npz        empirical farmer SPD
-    |-- figures/
-        |-- grid_levant_climate.png
-        |-- grid_levant_climate2.png
-        |-- grid_ensemble_levant_climate_sigma0.005.png
-        |-- ode_levant_climate.png
-        |-- ode_levant_climate2.png
-        |-- null_both_levant_climate.png
-        |-- null_both_levant_climate2.png
-        |-- no_gate_levant_climate.png
-        |-- sensitivity_levant_climate.png
-        |-- sensitivity_levant_climate2.png
-
 ---
 
 ## Reproducing the results
