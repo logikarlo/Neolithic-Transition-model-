@@ -616,7 +616,7 @@ def main():
 
     plt.tight_layout()
     Path("figures").mkdir(exist_ok=True)
-    plt.savefig("figures/levant_forager_farmer_spd.png", dpi=150)
+    plt.savefig("_FIG_DIR /levant_forager_farmer_spd.png", dpi=150)
     plt.show()
 
     # ---- Save ----
