@@ -42,7 +42,7 @@ _REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_REPO_ROOT / "models"))
 
 _DATA_DIR = _REPO_ROOT / "data"
-_SPD_DIR = _REPO_ROOT / "xronos SPDs"
+_SPD_DIR = _REPO_ROOT / "xronos_SPDs"
 _FIG_DIR = _REPO_ROOT / "figures"
 
 from levant_null import fit_null_v2
@@ -426,7 +426,7 @@ def main():
 
     plt.tight_layout()
     Path("figures").mkdir(exist_ok=True)
-    plt.savefig(_FIG_DIR / f"figures/null_both_{tag}.png", dpi=150)
+    plt.savefig(_FIG_DIR / f"null_both_{tag}.png", dpi=150)
     plt.show()
 
 
