@@ -394,6 +394,19 @@ The spatial precipitation field is a Gaussian centered on the
 Galilee. It captures the first-order gradient but does not resolve
 paleo-spatial detail.
 
+**10. The Southern Levantine data is 25% potentially unreliable.**
+
+The radiocarbon corpus contains ~25% flagged dates. Bunbury (2025) 
+curated 4,657 ¹⁴C dates from 582 Southern Levantine sites and flagged 
+1,098 (≈25%) as unreliable or with potential reliability issues, including 
+intrusive materials (96), mixed reservoirs (121), error values exceeding 
+10% CRA (91), and unspecified material (327). The current pipeline applies 
+no such screening; all XRONOS rows with valid coordinates, ages, and errors 
+are included. The direction of the resulting bias is predominantly toward 
+older ages, which affects the forager portion of the SPD more than the 
+farmer portion. The magnitude of the bias in the 23,000–7,300 BP window is 
+not quantified here; applying the Bunbury flags is the recommended next step.
+
 ---
 
 ## Repository structure
@@ -510,6 +523,10 @@ C.J. (2003). Sea-land oxygen isotopic relationships from planktonic
 foraminifera and speleothems in the Eastern Mediterranean region and
 their application for paleorainfall during interglacial intervals.
 *Geochimica et Cosmochimica Acta* 67, 3181-3199.
+
+Bunbury, M. M. E. (2025). Towards Robust Demographic Models: A Systematic 
+Approach to 14C Data Aggregation and Analysis: Lessons from the Southern 
+Levant. *_Journal of Open Archaeology Data_*, 13(3).
 
 Bocquet-Appel, J.-P. (2002). Paleoanthropological traces of a Neolithic
 demographic transition. *Current Anthropology* 43, 637-650.
